@@ -193,7 +193,8 @@ export default class SignupController extends React.Component {
             );
         }
 
-        if (this.props.isLicensed && this.props.enableSignUpWithGoogle) {
+        // if (this.props.isLicensed && this.props.enableSignUpWithGoogle) {
+        if (this.props.enableSignUpWithGoogle) {
             signupControls.push(
                 <a
                     className='btn btn-custom-login btn--full google'
