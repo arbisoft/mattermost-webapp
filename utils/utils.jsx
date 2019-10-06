@@ -571,7 +571,7 @@ export function applyTheme(theme) {
         dndIndicator = theme.dndIndicator;
     } else {
         switch (theme.type) {
-        case 'Organization':
+        case 'Arbisoft':
             dndIndicator = Constants.THEMES.organization.dndIndicator;
             break;
         case 'Mattermost Dark':

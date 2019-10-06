@@ -839,7 +839,7 @@ export const Constants = {
             image: mattermostThemeImage,
         },
         organization: {
-            type: 'Organization',
+            type: 'Arbisoft',
             sidebarBg: '#2071a7',
             sidebarText: '#ffffff',
             sidebarUnreadText: '#ffffff',
